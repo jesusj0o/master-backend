@@ -4,6 +4,7 @@
   "description": "master mvc backend complete project ",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/jesusj0o/master-backend/issues"
   },
-  "homepage": "https://github.com/jesusj0o/master-backend#readme"
+  "homepage": "https://github.com/jesusj0o/master-backend#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.6.0",
+    "nodemon": "^2.0.19"
+  }
 }
